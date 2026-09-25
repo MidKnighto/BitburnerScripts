@@ -2,8 +2,7 @@
 
 export async function main(ns) {
 
-  const server = ns.args[0];
-  
+  const server = ns.args[0]
   // @ts-ignore
   ns.tprint("Server max money: " + ns.getServerMaxMoney(server));
   // @ts-ignore
